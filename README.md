@@ -5,7 +5,7 @@
 - Creating, deleting and editing trips, cities, buses by the admin role.
 - This project includes Iyzico API
 
-## **Technologies:** Entity Framework Core, Sqlite, Asp .Net Core MVC, C#, HTML, CSS, Bootstrap, ASP.Net Web API, Generic Repository Design Pattern, Code First 
+###### **Technologies:** Entity Framework Core, Sqlite, Asp .Net Core MVC, C#, HTML, CSS, Bootstrap, ASP.Net Web API, Generic Repository Design Pattern, Code First 
 
 ADMIN: didem@gmail.com
 Sifre: Qwe123.

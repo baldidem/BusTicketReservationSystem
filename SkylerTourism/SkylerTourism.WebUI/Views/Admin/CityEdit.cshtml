@@ -1,0 +1,28 @@
+﻿@model City 
+
+
+
+<form asp-controller="Admin" asp-action="CityEdit" method="post">
+
+    <input type="hidden" value="@Model.CityId" name="CityId" />
+    <div class="card p-3 m-5 bg-light text-dark">
+        <div class=" card-body mt-2 align-items-center">
+            <h5> EDIT CITY </h5>
+
+            <label class="fw-bold">City Name</label>
+
+            <div class="col-3 text-center  mb-3">
+                <input class="form-control" style="width:10rem" asp-for="CityName" />
+
+            </div>
+
+            <div class="col-3 text-center  mb-3">
+                <button style="width:10rem" class="btn btn-success" type="submit">SAVE CHANGE</button>
+            </div>
+
+           
+
+</form>
+
+
+

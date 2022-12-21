@@ -1,0 +1,93 @@
+﻿@model List<Trip>
+
+<h1 class="display-5" style="color: #385170">Trip List</h1>
+<hr />
+<div>
+    <a class="btn btn-sm btn-primary" style="background-color:#385170" asp-controller="Admin" asp-action="TripCreate">Create Trip</a>
+</div>
+<hr />
+@if (Model.Count>0)
+{
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Trip Id</th>
+                <th scope="col">Departure City</th>
+                <th scope="col">Arrival City</th>
+                <th scope="col">Trip Date</th>
+                <th scope="col">Trip Time</th>
+                <th scope="col">Price</th>
+                <th scope="col">Bus Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trip in Model)
+            {
+                <tr>
+                    <td>@trip.TripId</td>
+                    <td>@trip.DepartureCity.CityName</td>
+                    <td>@trip.ArrivalCity.CityName</td>
+                    <td>@trip.TripDate</td>
+                    <td>@trip.TripTime</td>
+                    <td>@trip.Price</td>
+                    <td>@trip.BusId</td>
+
+                    <td>
+                        <a asp-controller="Admin"
+                   asp-action="TripEdit"
+                   asp-route-id=@trip.TripId
+                   class="btn btn-sm" style="background-color:#FFE3B0">Edit</a>
+                        <!-- Button trigger DeleteModal -->
+                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@trip.TripId">
+                            Delete
+                        </button>
+                        <!-- DeleteModal -->
+                        <div class="modal fade" id="DeleteModal_@trip.TripId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-danger">This trip will be deleted!</p>
+                                        <p>Are you sure?</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                        <a asp-controller="Admin"
+                                   asp-action="TripDelete"
+                                   asp-route-id=@trip.TripId
+                                   class="btn btn-danger">Yes</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <td>
+                        <div>
+                        <a asp-controller="Admin"
+                       asp-action="PassengersByTrip"
+                       asp-route-id=@trip.TripId
+                       class="btn btn-sm" style="background-color:#7BC0A3">Passenger List For This Trip</a>
+                        </div>
+                    </td>
+                        
+                   
+
+
+                </tr>
+            }
+        </tbody>
+</table>
+}
+else
+{
+@await Html.PartialAsync("_NoTrip");
+}
+
+                   
+                  
+                           
+

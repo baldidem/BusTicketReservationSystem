@@ -1,0 +1,49 @@
+﻿@model List<TripListModel>
+
+
+<h1 style="color: #385170">Trip List</h1>
+
+@if (Model.Count>0)
+{
+        <table class="table table-striped p-3 mb-2 bg-light text-dark">
+            <thead>
+            <tr style="color: #385170">
+                    <th scope="col">Departure City</th>
+                    <th scope="col">Arrival City</th>
+                    <th scope="col">Trip Date</th>
+                    <th scope="col">Trip Time</th>
+                    <th scope="col">Price</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var trip in Model)
+                {
+                    <input type="hidden" name="TripId" value=@trip.TripId />
+
+                    <tr>
+                        <td>@trip.DepartureCity.CityName</td>
+                        <td>@trip.ArrivalCity.CityName</td>
+                        <td>@trip.TripDate.ToShortDateString()</td>
+                        <td>@trip.TripTime.ToString("t")</td>
+                        <td>@trip.Price</td>
+                            <td><a 
+                                asp-controller="Home"
+                                asp-action="BuyTicket"
+                                asp-route-id="@trip.TripId"
+                   class="btn btn-sm" style="background-color:#FFB4B4">Select</a>
+                            </td>
+                    
+                    </tr>
+                }
+            </tbody>
+        </table>
+}
+else{
+    @await Html.PartialAsync("_NoTrip");
+}
+
+@*@section Styles {
+    <link rel="stylesheet" href="~/css/HomePageStyle.css" />
+}*@

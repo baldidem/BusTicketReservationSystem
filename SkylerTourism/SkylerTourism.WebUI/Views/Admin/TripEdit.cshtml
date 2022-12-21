@@ -1,0 +1,105 @@
+﻿@model TripCreateModel
+
+
+
+<form asp-controller="Admin" asp-action="TripEdit" method="post">
+        
+    <input type="hidden" value="@Model.TripId" name="TripId"/>
+    <div class="card p-3 m-5 text-dark bg-light">
+        <div class=" card-body mt-2 align-items-center">
+            <h5> EDIT TRIP </h5>
+
+            <div class="col-3 text-center mb-3">
+
+
+                <div class="text-start"><label>Departure City</label></div>
+                <select class="form-select" style="width:10rem" asp-for="DepartureCityId">
+
+                    @foreach (var city in Model.Cities)
+                    {
+                        if (city.CityName != Model.DepartureCity.CityName)
+                        {
+                            <option placeholder="Departure City" value="@city.CityId">@city.CityName</option>
+
+                        }else
+                        {
+                            <option selected placeholder="Arrival City" value="@city.CityId">@city.CityName</option>
+                        }
+                    }
+                </select>
+                <div class="text-danger">@ViewBag.DepartureCityErrorMessage</div>
+                <div class="text-danger">@ViewBag.SameCityErrorMessage</div>
+
+
+            </div>
+            <div class="col-3 text-center  mb-3">
+                <div class="text-start"><label>Arrival City</label></div>
+                <select class="form-select" style="width:10rem" asp-for="ArrivalCityId">                   
+
+                    @foreach (var city in Model.Cities)
+                    {
+
+                        if (city.CityName != Model.ArrivalCity.CityName)
+                        {
+                            <option placeholder="Arrival City" value="@city.CityId">@city.CityName</option>
+
+                        }
+                        else
+                        {
+                            <option selected placeholder="Arrival City" value="@city.CityId">@city.CityName</option>
+                        }
+
+
+                    }
+                </select>
+                <div class="text-danger">@ViewBag.ArrivalCityErrorMessage</div>
+
+            </div>
+
+            <label>Trip Date</label>
+
+            <div class="col-3 text-center  mb-3">
+                <input class="form-control" style="width:10rem" asp-for="TripDate" value="@Model.TripDate.ToShortDateString()" type="text" />
+                <div class="text-danger">@ViewBag.TripDateErrorMessage</div>
+
+            </div>
+
+            <label>Trip Time</label>
+
+            <div class="col-3 text-center  mb-3">
+                <input class="form-control" style="width:10rem" asp-for="TripTime" value="@Model.TripTime.ToShortTimeString()" type="text"/>
+                <div class="text-danger">@ViewBag.TimeErrorMessage</div>
+
+            </div>
+            <label>Price</label>
+
+            <div class="col-3 text-center  mb-3">
+                <input class="form-control" style="width:10rem" asp-for="Price" value="@Model.Price" placeholder="Price"/>
+                <div class="text-danger">@ViewBag.PriceErrorMessage</div>
+
+            </div>
+            <label>Bus Id</label>
+            <div class="col-3 text-center  mb-3">
+                <select class="form-select" style="width:10rem" asp-for="BusId">
+                    <option selected> -- </option>
+
+                    @foreach (var bus in Model.Buses)
+                    {
+                        <option value="@bus.BusId">@bus.BusId</option>
+
+                    }
+                </select>
+                <div class="text-danger">@ViewBag.BusErrorMessage</div>
+            </div>
+        </div>
+
+        </div>
+    <div class="col-3 text-center  mb-3">
+        <button style="width:10rem" class="btn btn-success" type="submit">SAVE CHANGES</button>
+    </div>
+    @ViewBag.TripEditError
+
+</form>
+
+
+

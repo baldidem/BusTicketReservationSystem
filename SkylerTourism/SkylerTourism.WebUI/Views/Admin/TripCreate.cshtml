@@ -1,0 +1,85 @@
+﻿@model TripCreateModel
+
+
+<h5> CREATE TRIP </h5>
+
+<form asp-controller="Admin" asp-action="TripCreate" method="post">
+    <div class="card p-3 m-5 bg-light text-dark">
+        <div class=" card-body mt-2 align-items-center">
+            <div class="col-3 text-center mb-3">
+                <label>Departure City</label>
+                <select class="form-select" style="width:10rem" asp-for="DepartureCityId">
+                    <option selected> -- </option>
+
+                    @foreach (var city in Model.Cities)
+                    {
+                        <option placeholder="Departure City" value="@city.CityId">@city.CityName</option>
+
+                    }
+                </select>
+                <div class="text-danger">@ViewBag.DepartureCityErrorMessage</div>
+                <div class="text-danger">@ViewBag.SameCityErrorMessage</div>
+
+
+            </div>
+            <div class="col-3 text-center  mb-3">
+                <label>Arrival City</label>
+                <select class="form-select" style="width:10rem" asp-for="ArrivalCityId">
+                    <option selected> -- </option>
+
+                    @foreach (var city in Model.Cities)
+                    {
+                        <option value="@city.CityId">@city.CityName</option>
+
+                    }
+                </select>
+                <div class="text-danger">@ViewBag.ArrivalCityErrorMessage</div>
+
+            </div>
+
+            <label>Trip Date</label>
+
+            <div class="col-3 text-center  mb-3">
+                <input class="form-control" style="width:10rem" asp-for="TripDate" value="@Model.TripDate.ToShortDateString()" type="date" />
+                <div class="text-danger">@ViewBag.TripDateErrorMessage</div>
+
+            </div>
+
+            <label>Trip Time</label>
+
+            <div class="col-3 text-center  mb-3">
+                <input class="form-control" style="width:10rem" asp-for="TripTime" value="@Model.TripTime" type="time"/>
+                <div class="text-danger">@ViewBag.TimeErrorMessage</div>
+
+            </div>
+            <label>Price</label>
+
+            <div class="col-3 text-center  mb-3">
+                <input class="form-control" style="width:10rem" asp-for="Price" value="@Model.Price" placeholder="Price"/>
+                <div class="text-danger">@ViewBag.PriceErrorMessage</div>
+
+            </div>
+            <label>Bus Id</label>
+            <div class="col-3 text-center  mb-3">
+                <label>BusId</label>
+                <select class="form-select" style="width:10rem" asp-for="BusId">
+                    <option selected> -- </option>
+
+                    @foreach (var bus in Model.Buses)
+                    {
+                        <option value="@bus.BusId">@bus.BusId</option>
+
+                    }
+                </select>
+                <div class="text-danger">@ViewBag.BusErrorMessage</div>
+            </div>
+        </div>
+
+        </div>
+    <div class="col-3 text-center  mb-3">
+        <button style="width:10rem" class="btn btn-success" type="submit">ADD</button>
+    </div>
+</form>
+
+
+

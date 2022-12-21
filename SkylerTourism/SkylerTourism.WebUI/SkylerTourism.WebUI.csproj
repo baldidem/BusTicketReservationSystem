@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iyzipay" Version="2.1.46" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.10" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkylerTourism.Business\SkylerTourism.Business.csproj" />
+    <ProjectReference Include="..\SkylerTourism.Core\SkylerTourism.Core.csproj" />
+    <ProjectReference Include="..\SkylerTourism.Data\SkylerTourism.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,105 @@
+﻿@model PurchasedTicketModel
+
+
+  
+    <div class="row mb-5">
+        <div class="card">
+            <div class="col-md-8">
+            <h5 style="color:#975C8D">TICKET INFORMATION</h5>
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                    <label class="fw-bold">Name: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.PassengerName
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                <label class="fw-bold">Surname: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.PassengerSurname
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                <label class="fw-bold">Email: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.EMail
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                <label class="fw-bold">Departure City: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.DepartureCity.CityName
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                <label class="fw-bold">Arrival City: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.ArrivalCity.CityName
+                </div>
+            </div>
+
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                <label class="fw-bold">Trip Date: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.TripDate.ToString("d")
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                <label class="fw-bold">Trip Time: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.TripTime.ToString("t")
+                </div>
+            </div>
+
+            <div class="row mb-2">
+                <div class="col-md-2">
+                    <label class="fw-bold">Seat Number: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.SeatNumber
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-2">
+                <label class="fw-bold">Price: </label>
+                </div>
+                <div class="col-md-10">
+                    @Model.Price
+                </div>
+            </div>
+
+
+        </div>
+        <div class="mt-5 d-flex align-items-end">
+            <h3 class="fw-bold mt-5" style="color:#975C8D" "><i>Thanks for chosing Skyler Tourism!</i></h3>
+        </div>
+    </div>
+
+
+
+
+
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

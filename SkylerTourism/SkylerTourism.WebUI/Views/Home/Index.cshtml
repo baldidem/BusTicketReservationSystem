@@ -1,0 +1,56 @@
+﻿@model SearchTripModel
+
+<h3 class="d-flex justify-content-center mt-5 text-light">WELCOME TO SKYLER TOURISM</h3>
+<div class="m-5 text-light">Please select the cities for your safe and jiyful trip</div>
+<form asp-controller="Home" asp-action="TripList" method="get">
+    <div class="card p-5 m-5 bg-light text-dark" style="height:250px">
+        <div class=" card-body d-flex justify-content-between mt-2 align-items-center">
+            <div class="col-3 text-center">
+                <select class="form-select" style="width:10rem" asp-for="DepartureCityId">
+                    <option selected> Departure city: </option>
+
+                    @foreach (var city in Model.Cities)
+                    {
+                        <option placeholder="Departure City" value="@city.CityId">@city.CityName</option>
+
+                    }
+                </select>
+
+                <div class="text-danger">@ViewBag.DepartureCityErrorMessage</div>
+                <div class="text-danger">@ViewBag.SameCityErrorMessage</div>
+
+                
+
+            </div>
+            <div class="col-3 text-center">
+                <select class="form-select" style="width:10rem" asp-for="ArrivalCityId">
+                    <option selected> Arrival city: </option>
+
+                    @foreach (var city in Model.Cities)
+                    {
+                        <option value="@city.CityId">@city.CityName</option>
+
+                    }
+                </select>
+
+                <div class="text-danger">@ViewBag.ArrivalCityErrorMessage</div>
+
+            </div>
+            <div class="col-3 text-center">
+                <input class="form-control" style="width:10rem" asp-for="TripDate" value="@Model.TripDate.ToShortDateString()" type="date" />
+                <div class="text-danger">@ViewBag.TripDateErrorMessage</div>
+            </div>
+
+
+            <div class="col-3 text-center">
+                <button style="width:10rem" class="btn btn-dark" type="submit">SEARCH</button>
+            </div>
+        </div>
+        </div>
+</form>
+
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/HomePageStyle.css" />
+}
+

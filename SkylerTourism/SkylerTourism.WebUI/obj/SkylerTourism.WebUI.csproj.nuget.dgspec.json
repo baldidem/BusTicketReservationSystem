@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.WebUI\\SkylerTourism.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj",
+        "projectName": "SkylerTourism.Business",
+        "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj",
+        "packagesPath": "C:\\Users\\edide\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj": {
+                "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj"
+              },
+              "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj": {
+                "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
+        "projectName": "SkylerTourism.Core",
+        "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
+        "packagesPath": "C:\\Users\\edide\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj",
+        "projectName": "SkylerTourism.Data",
+        "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj",
+        "packagesPath": "C:\\Users\\edide\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj": {
+                "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj",
+        "projectName": "SkylerTourism.Entity",
+        "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj",
+        "packagesPath": "C:\\Users\\edide\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.WebUI\\SkylerTourism.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.WebUI\\SkylerTourism.WebUI.csproj",
+        "projectName": "SkylerTourism.WebUI",
+        "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.WebUI\\SkylerTourism.WebUI.csproj",
+        "packagesPath": "C:\\Users\\edide\\.nuget\\packages\\",
+        "outputPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\edide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj": {
+                "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj"
+              },
+              "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj": {
+                "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj"
+              },
+              "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj": {
+                "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Iyzipay": {
+              "target": "Package",
+              "version": "[2.1.46, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,211 @@
+﻿@model PaymentTicketModel
+
+
+<form asp-controller="Home" asp-action="BuyTicket" method="post">
+    <input type="hidden" value="@Model.BusId" name="BusId" />
+    <input type="hidden" value="@Model.TripId" name="TripId" />
+    <input type="hidden" value="@Model.SeatCapacity" name="SeatCapacity" />
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <h5 style="color:#975C8D">TICKET INFORMATION</h5>
+
+            <div class="form-group row mb-2">
+                @ViewBag.FullBusErrorMessage
+
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="FirstName">Name</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="FirstName" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="LastName">Surname</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="LastName" />
+                </div>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="IdentityNumber">Identity Number</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="IdentityNumber" />
+                </div>
+
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="Email">Email</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="Email" />
+                </div>
+            </div>
+          
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="row rounded-3m-4 border ps-4">
+                <h4 class="mt-3 mb-4" style="color:#975C8D"><i class="bi bi-3-square"></i> Seat Reservation</h4>
+                <div class="row">
+                    <div class="list-group pe-4 pb-4 ps-2">
+                        <!-- Button trigger modal for seat selection -->
+                        <button type="button" class="btn alert-warning" data-bs-toggle="modal" data-bs-target="#selectSeat">
+                            <div class="d-flex">
+                                <div class="col-md-3 ps-4">
+                                    <img src="https://img.icons8.com/emoji/96/null/seat.png" />
+                                </div>
+                                <div class="col-md-9">
+                                    <h5 class="pt-3 text-black">Please select your seat</h5>
+                                 
+
+                                </div>
+                            </div>
+                        </button>
+                        <!-- Modal for seat selection-->
+                        <div class="modal fade" id="selectSeat" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 font-monospace ps-4 ms-4" id="staticBackdropLabel">Choose Your Seat</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex ps-4 ms-4 font-monospace">
+                                            <div class="bg-primary bg-opacity-25" style="width:20px;height:20px"></div>
+                                            <h6 class="text-primary text-opacity-50 ms-2">Booked</h6>
+                                        </div>
+                                        <div class="d-flex ps-4 ms-4 mb-4 font-monospace">
+                                            <div class="bg-primary bg-opacity-75" style="width:20px;height:20px"></div>
+                                            <h6 class="text-primary ms-2 text-opacity-75">Available</h6>
+                                        </div>
+                                        <div class="input-group-text border border-secondary ms-5 me-5 bg-secondary bg-gradient bg-opacity-10">
+                                            <div class="row">
+                                                <div class="row ms-4 mb-4 ps-4 pb-4">
+                                                   
+                                                </div>
+                                                @for (int i = 1; i <= Model.SeatCapacity; i++)
+                                                {
+
+                                                    if (i == 1)
+                                                    {
+                                                        <div class="row">
+                                                        </div>
+                                                        <hr />
+                                                    }
+                                                    if (i == 3 || i == 6 || i == 9 || i == 12 || i == 15 || i == 18 || i == 21 || i == 24 || i == 27 || i == 30 || i == 33 || i == 36 || i == 39)
+                                                    {
+
+
+                                                        <div class="col-5"><i class="fa-solid fa-grip-lines-vertical"></i></div>
+                                                    }
+                                                    <div class="col-2">
+                                                        <input class="form-check-input bg-primary bg-opacity-75" type="radio" style="font-size:35px; border:1px solid transparent; padding:0.375rem 0.75rem ;border-radius:0.25rem;" value="@i" name="seatNumber"
+                                                           @if ((List<int>)ViewBag.Seats != null)
+                                                           {                                                           
+                                                           @(((List<int>)ViewBag.SelectedSeats).Any(s=>s==i) ? ("disabled") : "")                                                          
+                                                           }>
+                                                        <label class="form-check-label mt-3" for="seats"><small>@i</small></label>
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn text-white" data-bs-dismiss="modal" style="background-color:#6D9886">Select</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <h5 style="color:#975C8D">PAYMENT INFORMATION</h5>
+
+            <div class="form-group row mb-2">
+
+
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="Phone">Phone</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="Phone" />
+                </div>
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="CardHolderName">Card Holder Name</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="CardHolderName" />
+                </div>
+                <span asp-validation-for="CardHolderName" class="text-danger"></span>
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="CardNumber">Card Number</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="CardNumber" />
+                </div>
+                <span asp-validation-for="CardNumber" class="text-danger"></span>
+
+            </div>
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="ExpireMonth">Expire Month</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="ExpireMonth" />
+                </div>
+                <span asp-validation-for="ExpireMonth" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="ExpireYear">Expire Year</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="ExpireYear" />
+                </div>
+                <span asp-validation-for="ExpireYear" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <label class="fw-bold" asp-for="Cvc">Cvc</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="text" asp-for="Cvc" />
+                </div>
+                <span asp-validation-for="Cvc" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row mb-2">
+                <div class="col-md-3">
+                    <button style="width:10rem" class="btn btn-success" type="submit">BUY</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,78 @@
+﻿@model List<City>
+
+
+<h1 class="display-5" style="color:#385170">City List</h1>
+<hr />
+<div>
+    <form asp-controller="Admin" asp-action="CityCreate" method="post">
+    <input type="text" placeholder="City name" name="CityName" />
+        <button class="btn btn-sm text-white" style="background-color:#385170">Add City</button>
+        <div class="text-danger">@TempData["EmptyCityError"]</div>
+    </form>
+
+</div>
+<hr />
+@if (Model.Count>0)
+{
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">City Id</th>
+                <th scope="col">City Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var city in Model)
+            {
+                <tr>
+                    <td>@city.CityId</td>
+                    <td>@city.CityName</td>
+
+                    <td>
+                        <a asp-controller="Admin"
+                   asp-action="CityEdit"
+                   asp-route-id=@city.CityId
+                   class="btn btn-sm" style="background-color:#FFE3B0">Edit</a>
+                        <!-- Button trigger DeleteModal -->
+                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal_@city.CityId">
+                            Delete
+                        </button>
+                        <!-- DeleteModal -->
+                        <div class="modal fade" id="DeleteModal_@city.CityId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Warning!</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-danger">This city will be deleted!</p>
+                                        <p>Are you sure?</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                        <a asp-controller="Admin"
+                                   asp-action="CityDelete"
+                                   asp-route-id=@city.CityId
+                                   class="btn btn-danger">Yes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                     
+                    </td>
+                </tr>
+            }
+        </tbody>
+</table>
+}
+else
+{
+    @await Html.PartialAsync("_NoCity")
+    ;
+}
+
+                   
+                  
+                           
+

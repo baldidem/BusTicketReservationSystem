@@ -13,16 +13,16 @@ Sifre: Qwe123.
 USER: user@gmail.com
 Sifre: Qwe123.
 
-TRIP1
-Departure: Istanbul
-Arrival: Izmir
-Date: 25/12/2022
+###### TRIP1
+- Departure: Istanbul
+- Arrival: Izmir
+- Date: 25/12/2022
 
 
-TRIP2
-Departure: Istanbul
-Arrival: Ankara
-Date: 30/12/2022
+###### TRIP2
+- Departure: Istanbul
+- Arrival: Ankara
+- Date: 30/12/2022
 
 IYZICO TEST CARDS
 

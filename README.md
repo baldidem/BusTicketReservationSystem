@@ -8,10 +8,10 @@
 ###### **Technologies:** Entity Framework Core, Sqlite, Asp .Net Core MVC, C#, HTML, CSS, Bootstrap, ASP.Net Web API, Generic Repository Design Pattern, Code First 
 
 - ADMIN: didem@gmail.com
-- Password: Qwe123.
+  Password: Qwe123.
 
 - USER: user@gmail.com
-- Password: Qwe123.
+  Password: Qwe123.
 
 ###### TRIP1
 - Departure: Istanbul

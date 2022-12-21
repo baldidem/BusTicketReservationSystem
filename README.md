@@ -1,10 +1,11 @@
 # BusTicketReservationSystem
 
---Displaying the trips on the route chosen by the users with time, date and price information.
--Users can buy tickets by choosing a seat
---Creating, deleting and editing trips, cities, buses by the admin role.
---This project includes Iyzico API
-Technologies: Entity Framework Core,Microsoft SQL Server, Asp .Net Core MVC, HTML, CSS, Bootstrap, , ASP.Net Web API
+-Displaying the trips on the route chosen by the users with time, date and price information.
+*Users can buy tickets by choosing a seat
++Creating, deleting and editing trips, cities, buses by the admin role.
+-This project includes Iyzico API
+
+## **Technologies:** Entity Framework Core,Microsoft SQL Server, Asp .Net Core MVC, HTML, CSS, Bootstrap, , ASP.Net Web API
 
 ADMIN: didem@gmail.com
 Sifre: Qwe123.

@@ -8,149 +8,149 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SkylerTourism.WebUI
 build_property.RootNamespace = SkylerTourism.WebUI
-build_property.ProjectDir = C:\GithubRepos\SkylerTourism\SkylerTourism\SkylerTourism.WebUI\
+build_property.ProjectDir = C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.WebUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\GithubRepos\SkylerTourism\SkylerTourism\SkylerTourism.WebUI
+build_property.MSBuildProjectDirectory = C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Account/Login.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Account/Register.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/AllTrips.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/AllTrips.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsVHJpcHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/BusEdit.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/BusEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQnVzRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/BusList.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/BusList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQnVzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/CityEdit.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/CityEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2l0eUVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/CityList.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/CityList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2l0eUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PassengerCreate.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PassengerCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFzc2VuZ2VyQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PassengerEdit.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PassengerEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFzc2VuZ2VyRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PassengersByTrip.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PassengersByTrip.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFzc2VuZ2Vyc0J5VHJpcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PasswordEdit.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/PasswordEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFzc3dvcmRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/RoleCreate.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/RoleCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUNyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/RoleEdit.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/RoleEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/RoleList.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/RoleList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/TripCreate.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/TripCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJpcENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/TripEdit.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/TripEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJpcEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/UserCreate.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/UserCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckNyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/UserEdit.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/UserEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Admin/UserList.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Admin/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Home/BuyTicket.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Home/BuyTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXlUaWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Home/Index.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Home/PurchasedTicket.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Home/PurchasedTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQdXJjaGFzZWRUaWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Home/TripList.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Home/TripList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmlwTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/ReservationCompleted.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/ReservationCompleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlc2VydmF0aW9uQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_DataTablesCssPartial.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_DataTablesCssPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhVGFibGVzQ3NzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_DataTablesScriptsPartial.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_DataTablesScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXRhVGFibGVzU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoBus.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoBus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob0J1cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoCity.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob0NpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoPassenger.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoPassenger.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob1Bhc3Nlbmdlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoRecord.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoRecord.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob1JlY29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoTrip.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_NoTrip.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob1RyaXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/_ViewImports.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/_ViewStart.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GithubRepos/SkylerTourism/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_Layout.cshtml]
+[C:/GithubRepos/BusTicketReservationSystem/SkylerTourism/SkylerTourism.WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kh4pwftemh

@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
+      "projectUniqueName": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
       "projectName": "SkylerTourism.Core",
-      "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
+      "projectPath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
       "packagesPath": "C:\\Users\\edide\\.nuget\\packages\\",
-      "outputPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\obj\\",
+      "outputPath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edide\\AppData\\Roaming\\NuGet\\NuGet.Config",

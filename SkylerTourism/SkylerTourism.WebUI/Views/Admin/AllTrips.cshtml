@@ -28,8 +28,8 @@
                     <td>@trip.TripId</td>
                     <td>@trip.DepartureCity.CityName</td>
                     <td>@trip.ArrivalCity.CityName</td>
-                    <td>@trip.TripDate</td>
-                    <td>@trip.TripTime</td>
+                    <td>@trip.TripDate.ToShortDateString()</td>
+                    <td>@trip.TripTime.ToShortTimeString()</td>
                     <td>@trip.Price</td>
                     <td>@trip.BusId</td>
 

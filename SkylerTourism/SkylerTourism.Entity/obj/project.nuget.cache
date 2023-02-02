@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XVLh1vJ19CwjJgJgIvERR7uk4aD5C3jgOgNP7XgfTvJrMuSjU/ojnvBWwzNjik9tlGRdtacZDNzmlwi5cjSJyA==",
+  "dgSpecHash": "rw+T+p0/qlebJd/09ueHDb/8TqB0quGhh90g9uRz6o2SHxa7+ZLlzU1aFoeXviV7Fk72xp8nzhULvKxvNtJpNA==",
   "success": true,
-  "projectFilePath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj",
+  "projectFilePath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

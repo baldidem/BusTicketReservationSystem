@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jc1cwxv0G7ch0HW9bCr3LHxf4DD8SQjAQNwPA7RutwudRmH2Mi/2ky669WNTkOd5aExqNR/2du1IBaz3JNkf7w==",
+  "dgSpecHash": "Ex6HY1Il3WTN0pn1GgD9Xp+bepsXZTPXl2+AsdQmvkOEPVqtiw/uKCu2rm1sXYIHZgzP4n7bpCZ8dXjvoP0wvg==",
   "success": true,
-  "projectFilePath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
+  "projectFilePath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Core\\SkylerTourism.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edide\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

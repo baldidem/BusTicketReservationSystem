@@ -22,3 +22,15 @@ C:\GithubRepos\SkylerTourism\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\S
 C:\GithubRepos\SkylerTourism\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\refint\SkylerTourism.Core.dll
 C:\GithubRepos\SkylerTourism\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.pdb
 C:\GithubRepos\SkylerTourism\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\ref\SkylerTourism.Core.dll
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\bin\Debug\net6.0\SkylerTourism.Core.deps.json
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\bin\Debug\net6.0\SkylerTourism.Core.dll
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\bin\Debug\net6.0\SkylerTourism.Core.pdb
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.csproj.AssemblyReference.cache
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.AssemblyInfoInputs.cache
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.AssemblyInfo.cs
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.csproj.CoreCompileInputs.cache
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.dll
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\refint\SkylerTourism.Core.dll
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\SkylerTourism.Core.pdb
+C:\GithubRepos\BusTicketReservationSystem\SkylerTourism\SkylerTourism.Core\obj\Debug\net6.0\ref\SkylerTourism.Core.dll

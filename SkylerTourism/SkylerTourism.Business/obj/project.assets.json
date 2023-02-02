@@ -1196,11 +1196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj",
+      "projectUniqueName": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj",
       "projectName": "SkylerTourism.Business",
-      "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj",
+      "projectPath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Business\\SkylerTourism.Business.csproj",
       "packagesPath": "C:\\Users\\edide\\.nuget\\packages\\",
-      "outputPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Business\\obj\\",
+      "outputPath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edide\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1217,11 +1217,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj": {
-              "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj"
+            "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj": {
+              "projectPath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Data\\SkylerTourism.Data.csproj"
             },
-            "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj": {
-              "projectPath": "C:\\GithubRepos\\SkylerTourism\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj"
+            "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj": {
+              "projectPath": "C:\\GithubRepos\\BusTicketReservationSystem\\SkylerTourism\\SkylerTourism.Entity\\SkylerTourism.Entity.csproj"
             }
           }
         }

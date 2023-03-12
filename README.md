@@ -16,13 +16,13 @@
 ###### TRIP1
 - Departure: Istanbul
 - Arrival: Izmir
-- Date: 25/02/2023
+- Date: 25/05/2023
 
 
 ###### TRIP2
 - Departure: Istanbul
 - Arrival: Ankara
-- Date: 20/02/2023
+- Date: 20/05/2023
 
 IYZICO TEST CARDS
 
